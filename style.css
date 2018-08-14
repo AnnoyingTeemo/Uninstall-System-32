@@ -1,6 +1,6 @@
 * {
-    background-color: black;
-    color: white;
+    background-color: #5c0029;
+    color: #acf7c1;
     text-align: center;
 }
 
@@ -12,7 +12,7 @@
     font-size: 1.5em;
     height: 9em;
     border-style: solid;
-    border-color: white;
+    border-color: #857c8d;
 }
 
 .box2 {
@@ -21,7 +21,7 @@
     font-size: 1.5em;
     height: 9em;
     border-style: solid;
-    border-color: white;
+    border-color: #857c8d;
 }
 
 .box3 {
@@ -30,66 +30,29 @@
     font-size: 1.5em;
     height: 8em;
     border-style: solid;
-    border-color: white;
+    border-color: #857c8d;
 }
+
 /* End of index box's */
 
-
-.box4 {
+.boxleft {
     width: 49%;
     float: left;
     font-size: 1em;
     height: 9em;
     border-style: solid;
-    border-color: white;
+    border-color: #857c8d;
 }
 
-.box5 {
+.boxright {
     width: 49%;
     float: right;
     font-size: 1em;
     height: 9em;
     border-style: solid;
-    border-color: white;
+    border-color: #857c8d;
 }
 
-.box6 {
-    width: 49%;
-    float: left;
-    font-size: 1em;
-    height: 9em;
-    border-style: solid;
-    border-color: white;
-}
-
-.box7 {
-    width: 49%;
-    float: right;
-    font-size: 1em;
-    height: 9em;
-    border-style: solid;
-    border-color: white;
-}
-
-.box8 {
-    width: 49%;
-    float: left;
-    font-size: 1em;
-    height: 9em;
-    border-style: solid;
-    border-color: white;
-}
-
-.box9 {
-    width: 49%;
-    float: right;
-    font-size: 1em;
-    height: 9em;
-    border-style: solid;
-    border-color: white;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300');
 .flex-center {
     display: flex;
     align-items: center;
@@ -97,8 +60,7 @@
 }
 
 * {
-    box-sizing: border-box; //font-family: 'Open Sans', sans-serif;
-    //font-weight: 300;
+    box-sizing: border-box;
 }
 
 a,
@@ -110,7 +72,6 @@ a:active {
 }
 
 h1 {
-    //font-family: 'Pacifico', cursive;
     font-weight: 400;
     font-size: 3em;
     text-align: center;
@@ -125,7 +86,7 @@ h1 {
 
 .outer-menu .checkbox-toggle {
     position: absolute;
-/*    position: relative;*/
+    /*    position: relative;*/
     top: 0;
     left: 0;
     z-index: 2;
@@ -184,7 +145,7 @@ h1 {
     width: 60px;
     height: 60px;
     padding: .5em 1em;
-    background: rgba(41, 243, 33, 0.75);
+    background: rgba(148, 191, 190, 0.75);
     border-radius: 0 0.12em 0.12em 0;
     cursor: pointer;
     transition: box-shadow 0.4s ease;
@@ -244,8 +205,8 @@ h1 {
 .outer-menu .menu > div {
     width: 200vw;
     height: 200vw;
-    color: #FEFEFE;
-    background: #ff8000;
+    color: #61304b;
+    background: #61304b;
     border-radius: 50%;
     transition: all 0.4s ease;
     flex: none;
@@ -314,6 +275,6 @@ h1 {
     transition: width 0.4s ease;
 }
 
-header{
+header {
     font-size: 2em;
 }
