@@ -17,6 +17,7 @@
 .box {
     width: 49%;
     float: left;
+    padding: 4%;
     height: 13em;
     border-style: solid;
     border-color: #857c8d;
@@ -25,7 +26,7 @@
 .box2 {
     width: 49%;
     float: right;
-
+    padding: 4%;
     height: 13em;
     border-style: solid;
     border-color: #857c8d;
